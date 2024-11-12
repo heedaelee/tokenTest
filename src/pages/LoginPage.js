@@ -1,6 +1,6 @@
 // LoginPage.js
 import React, { useState } from "react";
-import { useLogin } from "./authService";
+import { useLogin } from "../api";
 import { useNavigate } from "react-router-dom";
 
 const LoginPage = () => {
